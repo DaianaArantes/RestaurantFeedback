@@ -5,6 +5,6 @@
  
  ## Some of the Screens
  
- <img src="https://github.com/DaianaArantes/WebMobileApplication_Assignment1/blob/master/screenshots/screenshot_home.png" width="100" height=" 300">
+ <img src="https://github.com/DaianaArantes/WebMobileApplication_Assignment1/blob/master/screenshots/screenshot_home.png" width="300" height=" 500">
 
  
