@@ -1,0 +1,185 @@
+<!--Assignment 1
+Written by Daiana Arantes
+Jan 2019
+Revision History
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>DA Feedback A1</title>
+</head>
+<body>
+
+<!--page 1-->
+<div id="daHomePage" data-role="page">
+    <header data-role="header" data-theme="b" data-position="fixed">
+        <h1>DA Feedback A1</h1>
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li><a href="#daHomePage" data-icon="home" class="ui-btn-active ui-state-persist">Home</a></li>
+                <li><a href="#daAddFeedbackPage" data-icon="plus" class="ui-btn-a">Add</a></li>
+                <li><a href="#daViewFeedbackPage" data-icon="grid" class="ui-btn-a">Reviews</a></li>
+                <li><a href="#daSettingsPage" data-icon="gear" class="ui-btn-a">Settings</a></li>
+            </ul>
+        </div>
+    </header>
+    <section data-role="content">
+
+        <h1>Daiana Arantes's Feedback A1 App</h1>
+        <p>Welcome to the Daiana Arantes's Feedback A1 app. A prototype designed for mobile programming class. This is
+            the first iteration of the app to keep track of different places you visited along with your reviews.</p>
+        <img src="img/da-icon.png" alt="butterfly icon">
+        <p>Please feel free to contact me if you have any suggestions!</p>
+        <a href="#" data-role="button" data-rel="phone" data-icon="plus">Call: 519.748.5220</a>
+        <a href="#" data-role="button" data-rel="email" data-icon="plus">darantes@conestogac.on.ca</a>
+        <p>Website:</p>
+        <a href="#" data-role="button" data-rel="website" data-icon="plus">Conestoga College</a>
+    </section>
+    <footer data-role="footer" data-theme="b" data-position="fixed">
+        <h1>&copy; 2019 Daiana Arantes</h1>
+    </footer>
+</div>
+
+<!--page 2-->
+<div id="daAddFeedbackPage" data-role="page">
+    <header data-role="header" data-theme="b" data-position="fixed">
+        <h1>Add a Feedback</h1>
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li><a href="#daHomePage" data-icon="home" class="ui-btn-a">Home</a></li>
+                <li><a href="#daAddFeedbackPage" data-icon="plus" class="ui-btn-active ui-state-persist">Add</a></li>
+                <li><a href="#daViewFeedbackPage" data-icon="grid" class="ui-btn-a">Reviews</a></li>
+                <li><a href="#daSettingsPage" data-icon="gear" class="ui-btn-a">Settings</a></li>
+            </ul>
+        </div>
+    </header>
+    <section data-role="content">
+        <form action="#" id="daAddForm">
+            <label>Business Name:</label>
+            <input type="text" id="daBusinessName" name="daBusinessName">
+            <label>Reviewer Email:</label>
+            <input type="email" id="daReviewerEmail" name="daReviewerEmail">
+            <label>Reviewer Comments:</label>
+            <textarea id="daReviewerComments" name="daReviewerComments"></textarea>
+            <label>Overall Ratings (1-100):</label>
+            <input type="number" id="daOverallRatings" name="daOverallRatings">
+        </form>
+        <button data-inline="true" id="daBtnSave" class="ui-btn-active">Save</button>
+    </section>
+    <footer data-role="footer" data-theme="b" data-position="fixed">
+        <h1>&copy; 2019 Daiana Arantes</h1>
+    </footer>
+</div>
+
+<!--page 3-->
+<div id="daViewFeedbackPage" data-role="page">
+    <header data-role="header" data-theme="b" data-position="fixed">
+        <h1>List of Reviews</h1>
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li><a href="#daHomePage" data-icon="home" class="ui-btn-a">Home</a></li>
+                <li><a href="#daAddFeedbackPage" data-icon="plus" class="ui-btn-a">Add</a></li>
+                <li><a href="#daViewFeedbackPage" data-icon="grid" class="ui-btn-active ui-state-persist" >Reviews</a>
+                </li>
+                <li><a href="#daSettingsPage" data-icon="gear" class="ui-btn-a">Settings</a></li>
+            </ul>
+        </div>
+    </header>
+    <section data-role="content">
+        <ul id="daFeedbackList" data-role="listview" class="ui-listview-inset" data-icon="false">
+            <li>
+                <a href="#daEditFeedbackPage"><h1>Business Name: Tomatoes Restaurant</h1>
+                    <p>Reviewer Email: daiana@hotmail.com</p>
+                    <p>Comments: Best vegan food in Kitchener!</p>
+                    <p>Overall Rating: 95%</p>
+                </a>
+            </li>
+            <li>
+                <a href="#daEditFeedbackPage"><h1>Business Name: Pizza La Mama</h1>
+                    <p>Reviewer Email: gerald@hotmail.com</p>
+                    <p>Comments: Italian pizza with a good price!</p>
+                    <p>Overall Rating: 90%</p>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <footer data-role="footer" data-theme="b" data-position="fixed">
+        <h1>&copy; 2019 Daiana Arantes</h1>
+    </footer>
+</div>
+
+<!--page 4-->
+<div id="daEditFeedbackPage" data-role="page">
+    <header data-role="header" data-theme="b" data-position="fixed">
+        <h1>Modify Feedback</h1>
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li><a href="#daHomePage" data-icon="home" class="ui-btn-a">Home</a></li>
+                <li><a href="#daAddFeedbackPage" data-icon="plus" class="ui-btn-a">Add</a></li>
+                <li><a href="#daViewFeedbackPage" data-icon="grid" class="ui-btn-a">Reviews</a></li>
+                <li><a href="#daSettingsPage" data-icon="gear" class="ui-btn-a">Settings</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section data-role="content">
+        <form action="#" id="daEditForm" method="post">
+            <label>Business Name:</label>
+            <input type="text" id="daEditBusinessName" name="daEditBusinessName" value="Tomatoes Restaurant">
+            <label>Reviewer Email:</label>
+            <input type="email" id="daEditReviewerEmail" name="daEditReviewerEmail" value="daiana@hotmail.com">
+            <label>Reviewer Comments:</label>
+            <textarea id="daEditReviewerComments" name="daEditReviewerComments">Best vegan food in Kitchener!</textarea>
+            <label>Overall Ratings (1-100):</label>
+            <input type="number" id="daEditOverallRatings" name="daEditOverallRatings" value="95">
+        </form>
+        <div data-role="controlgroup" data-type="horizontal">
+            <button data-inline="true" id="daBtnCancel" STYLE="background-color: yellow">Cancel</button>
+            <button data-inline="true" id="daBtnDelete"  class="ui-btn-active">Delete</button>
+            <button data-inline="true" id="daBtnUpdate" data-theme="b">Update</button>
+        </div>
+    </section>
+    <footer data-role="footer" data-theme="b" data-position="fixed">
+        <h1>&copy; 2019 Daiana Arantes</h1>
+    </footer>
+</div>
+
+<!--page 5-->
+<div id="daSettingsPage" data-role="page">
+    <header data-role="header" data-theme="b" data-position="fixed">
+        <h1>Modify Feedback</h1>
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li><a href="#daHomePage" data-icon="home" class="ui-btn-a">Home</a></li>
+                <li><a href="#daAddFeedbackPage" data-icon="plus" class="ui-btn-a">Add</a></li>
+                <li><a href="#daViewFeedbackPage" data-icon="grid" class="ui-btn-a">Reviews</a></li>
+                <li><a href="#daSettingsPage" data-icon="gear" class="ui-btn-active ui-state-persist">Settings</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section data-role="content">
+        <label>Default reviewer Email:</label>
+        <input type="email" id="daSettingsEmail" name="daSettingsEmail">
+
+        <button id="daSettingsBtnSave" class="ui-btn-active">Save</button>
+        <button id="daSettingsBtnClear"  data-theme="b">Clear Database</button>
+
+    </section>
+    <footer data-role="footer" data-theme="b" data-position="fixed">
+        <h1>&copy; 2019 Daiana Arantes</h1>
+    </footer>
+</div>
+</body>
+</html>
+
+<!--jQuery-->
+<script src="js/lib/jquery-2.1.4.js"></script>
+<!--jQuery mobile-->
+<script src="js/lib/jquery.mobile-1.4.5.js"></script>
+<!--jQuery mobile css-->
+<link rel="stylesheet" type="text/css" href="css/lib/jquery.mobile-1.4.5.css">
