@@ -1,8 +1,4 @@
-<!--
-Written by Daiana Arantes
-April 2019
-Revision History
--->
+
 function DAupdateTypesDropdown() {
 
     var options = [];

@@ -1,8 +1,4 @@
-<!--Assignment
-Written by Daiana Arantes
-April 2019
-Revision History
--->
+
 // Calculation for Add Review
 function daAddOverallRating() {
 
@@ -160,21 +156,15 @@ function daInitStorage(){
     alert("Default Reviewer email saved");
 }
 
-function initDB()
-{
-    try
-    {
+function initDB() {
+    try {
         DB.DACreateDatabase();
-        if (db)
-        {
+        if (db) {
             DB.DACreateTables();
-        }
-        else
-        {
+        } else {
             console.error("Error: Cannot create tables: Database does not exist");
         }
-    }
-    catch (e)
-    {
+    } catch (e) {
         console.error("Error: (Fatal) Error in initDB(). Cannot proceed");
     }
+}
