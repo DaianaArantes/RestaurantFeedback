@@ -94,7 +94,7 @@ var DB = {
 
             tx.executeSql(sql, options, successDrop, errorHandler);
 
-            sql = "DROP TABLE IF EXISTS review;"
+            sql = "DROP TABLE IF EXISTS review;";
 
             tx.executeSql(sql, options, successDrop, errorHandler);
 

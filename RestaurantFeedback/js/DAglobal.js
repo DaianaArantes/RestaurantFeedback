@@ -1,3 +1,8 @@
+<!--Assignment
+Written by Daiana Arantes
+April 2019
+Revision History
+-->
 // Calculation for Add Review
 function daAddOverallRating() {
 
@@ -65,16 +70,37 @@ function daEditOverallRating() {
 }
 
 function daBtnSave_click() {
-    daValidate_daAddForm();
+    DAaddFeedback();
 }
 
 function daBtnUpdate_click() {
-    daValidate_daEditForm();
+    DAupdateFeedback();
 }
 
+function daSettingsBtnClear_click() {
+    DAclearDatabase();
+}
+function daAddFeedbackPage_show() {
+    var defaultEmail = localStorage.getItem("DefaultEmail");
+    $("#daAddReviewerEmail").val(defaultEmail);
+    DAupdateTypesDropdown();
+}
+
+function daViewFeedbackPage_show() {
+    DAgetReviews();
+}
+
+function daEditFeedbackPage_show() {
+    DAshowCurrentReview();
+}
+
+function daBtnDelete_click() {
+    DAdeleteFeedback();
+}
 function daSettingsBtnSave_click() {
     daInitStorage();
 }
+
 
 function init() {
     $("#daAddFoodQuality").on("keyup", daAddOverallRating);
@@ -88,6 +114,13 @@ function init() {
 
     $("#daBtnSave").on("click", daBtnSave_click);
     $("#daBtnUpdate").on("click", daBtnUpdate_click);
+    $("#daBtnDelete").on("click", daBtnDelete_click);
+    $("#daSettingsBtnClear").on("click", daSettingsBtnClear_click);
+
+    $("#daSettingsBtnSave").on("click", daSettingsBtnSave_click);
+    $("#daAddFeedbackPage").on("pageshow", daAddFeedbackPage_show);
+    $("#daViewFeedbackPage").on("pageshow", daViewFeedbackPage_show);
+    $("#daEditFeedbackPage").on("pageshow", daEditFeedbackPage_show);
 
     $("#daSettingsBtnSave").on("click", daSettingsBtnSave_click);
 }
@@ -95,6 +128,7 @@ function init() {
 $(document).ready(function (){
 
     init();
+    initDB();
 
     //Hide or show
     $("#daAddRatings").change(function(){
@@ -118,9 +152,29 @@ $(document).ready(function (){
             $("#daEditRating").hide();
         }
     });
+
 });
 
 function daInitStorage(){
     localStorage.setItem("DefaultEmail", $("#daSettingsEmail").val());
     alert("Default Reviewer email saved");
 }
+
+function initDB()
+{
+    try
+    {
+        DB.DACreateDatabase();
+        if (db)
+        {
+            DB.DACreateTables();
+        }
+        else
+        {
+            console.error("Error: Cannot create tables: Database does not exist");
+        }
+    }
+    catch (e)
+    {
+        console.error("Error: (Fatal) Error in initDB(). Cannot proceed");
+    }
