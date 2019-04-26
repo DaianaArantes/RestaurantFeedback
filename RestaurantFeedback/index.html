@@ -32,7 +32,10 @@ Revision History
         <h1>Daiana Arantes's Restaurant Feedback App</h1>
         <p>Welcome to the Daiana Arantes's Restaurant Feedback. A prototype designed for mobile programming class. This is
             an app to keep track of different places you visited along with your reviews.</p>
-        <img src="img/da-icon.png" alt="butterfly icon">
+        <p align="center">
+            <img src="img/da-icon.png" alt="butterfly icon" width="60%">
+        </p>
+
         <p>Please feel free to contact me if you have any suggestions!</p>
         <a href="#" data-role="button" data-rel="phone" data-icon="plus">Call: 519.748.5220</a>
         <a href="#" data-role="button" data-rel="email" data-icon="plus">darantes@conestogac.on.ca</a>
@@ -60,15 +63,36 @@ Revision History
     <section data-role="content">
         <form action="#" id="daAddForm">
             <label>Business Name:</label>
-            <input type="text" id="daBusinessName" name="daBusinessName">
+            <input type="text" id="daAddBusinessName" name="daAddBusinessName">
+            <label>Type:</label>
+            <select  id="daAddBusinessType" name="daAddBusinessType">
+                <option value="other" selected>Other</option>
+                <option value="Asian">Asian</option>
+                <option value="Canadian">Canadian</option>
+            </select>
             <label>Reviewer Email:</label>
-            <input type="email" id="daReviewerEmail" name="daReviewerEmail">
+            <input type="email" id="daAddReviewerEmail" name="daAddReviewerEmail">
             <label>Reviewer Comments:</label>
-            <textarea id="daReviewerComments" name="daReviewerComments"></textarea>
-            <label>Overall Ratings (1-100):</label>
-            <input type="number" id="daOverallRatings" name="daOverallRatings">
+            <textarea id="daAddReviewerComments" name="daAddReviewerComments"></textarea>
+            <label>Review Date:</label>
+            <input type="date" id="daAddReviewDate" name="daAddReviewDate">
+
+            <fieldset data-role="controlgroup">
+                <input type="checkbox" id="daAddRatings" name="daAddRatings">
+                <label for="daAddRatings">Do you want to add your ratings?</label>
+            </fieldset>
+            <div id="daAddRating" hidden>
+                <label>Food Quality (0-5):</label>
+                <input type="number" id="daAddFoodQuality" value="0" name="daAddFoodQuality">
+                <label>Service (0-5):</label>
+                <input type="number" id="daAddService" value="0" name="daAddService">
+                <label>Value (0-5):</label>
+                <input type="number" id="daAddValue" value="0" name="daAddValue" >
+                <label>Overall Rating (Calculated):</label>
+                <input type="text"  id="daAddOverallRating" value="0" name="daAddOverallRating" readonly disabled>
+            </div>
         </form>
-        <button data-inline="true" id="daBtnSave" class="ui-btn-active">Save</button>
+        <button data-inline="true" id="daBtnSave"  name="daBtnSave" class="ui-btn-active">Save</button>
     </section>
     <footer data-role="footer" data-theme="b" data-position="fixed">
         <h1>&copy; 2019 Daiana Arantes</h1>
@@ -120,27 +144,48 @@ Revision History
             <ul>
                 <li><a href="#daHomePage" data-icon="home" class="ui-btn-a">Home</a></li>
                 <li><a href="#daAddFeedbackPage" data-icon="plus" class="ui-btn-a">Add</a></li>
-                <li><a href="#daViewFeedbackPage" data-icon="grid" class="ui-btn-a">Reviews</a></li>
+                <li><a href="#daViewFeedbackPage" data-icon="grid" class="ui-btn-a" class="ui-btn-active ui-state-persist">Reviews</a></li>
                 <li><a href="#daSettingsPage" data-icon="gear" class="ui-btn-a">Settings</a>
                 </li>
             </ul>
         </div>
     </header>
     <section data-role="content">
-        <form action="#" id="daEditForm" method="post">
+        <form action="#" id="daEditForm">
             <label>Business Name:</label>
-            <input type="text" id="daEditBusinessName" name="daEditBusinessName" value="Tomatoes Restaurant">
+            <input type="text" id="daEditBusinessName" name="daEditBusinessName">
+            <label>Type:</label>
+            <select  id="daEditBusinessType" name="daEditBusinessType">
+                <option value="other" selected>Other</option>
+                <option value="Asian">Asian</option>
+                <option value="Canadian">Canadian</option>
+            </select>
             <label>Reviewer Email:</label>
-            <input type="email" id="daEditReviewerEmail" name="daEditReviewerEmail" value="daiana@hotmail.com">
+            <input type="email" id="daEditReviewerEmail" name="daEditReviewerEmail">
             <label>Reviewer Comments:</label>
-            <textarea id="daEditReviewerComments" name="daEditReviewerComments">Best vegan food in Kitchener!</textarea>
-            <label>Overall Ratings (1-100):</label>
-            <input type="number" id="daEditOverallRatings" name="daEditOverallRatings" value="95">
+            <textarea id="daEditReviewerComments" name="daEditReviewerComments"></textarea>
+            <label>Review Date:</label>
+            <input type="date" id="daEditReviewDate" name="daEditReviewDate">
+
+            <fieldset data-role="controlgroup">
+                <input type="checkbox" id="daEditRatings" name="daEditRatings">
+                <label for="daEditRatings">Do you want to add your ratings?</label>
+            </fieldset>
+            <div id="daEditRating" hidden>
+                <label>Food Quality (0-5):</label>
+                <input type="number" id="daEditFoodQuality" value="0" name="daEditFoodQuality">
+                <label>Service (0-5):</label>
+                <input type="number" id="daEditService" value="0" name="daEditService">
+                <label>Value (0-5):</label>
+                <input type="number" id="daEditValue" value="0" name="daEditValue" >
+                <label>Overall Rating (Calculated):</label>
+                <input type="text"  id="daEditOverallRating" value="0" name="daEditOverallRating" readonly disabled>
+            </div>
         </form>
         <div data-role="controlgroup" data-type="horizontal">
-            <button data-inline="true" id="daBtnCancel" STYLE="background-color: yellow">Cancel</button>
-            <button data-inline="true" id="daBtnDelete"  class="ui-btn-active">Delete</button>
-            <button data-inline="true" id="daBtnUpdate" data-theme="b">Update</button>
+            <button data-inline="true" id="daBtnCancel" name="daBtnCancel" STYLE="background-color: yellow">Cancel</button>
+            <button data-inline="true" id="daBtnDelete" name="daBtnDelete" data-theme="b">Delete</button>
+            <button data-inline="true" id="daBtnUpdate" name="daBtnUpdate" class="ui-btn-active" >Update</button>
         </div>
     </section>
     <footer data-role="footer" data-theme="b" data-position="fixed">
@@ -181,5 +226,14 @@ Revision History
 <script src="js/lib/jquery-2.1.4.js"></script>
 <!--jQuery mobile-->
 <script src="js/lib/jquery.mobile-1.4.5.js"></script>
+<!--JQuery Validate-->
+<script src="js/lib/jquery.validate.js"></script>
 <!--jQuery mobile css-->
 <link rel="stylesheet" type="text/css" href="css/lib/jquery.mobile-1.4.5.css">
+<link rel="stylesheet" type="text/css" href="css/DAmystyle.css">
+
+<!--my scripts-->
+<script src="js/DAdatabase.js"></script>
+<script src="js/DAfeedbackDAL.js"></script>
+<script src="js/DAutil.js"></script>
+<script src="js/DAglobal.js"></script>
