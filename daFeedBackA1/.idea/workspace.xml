@@ -1,7 +1,254 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59dab46a-fdf7-4649-86b2-95c9de05466f" name="Default Changelist" comment="" />
+    <list default="true" id="59dab46a-fdf7-4649-86b2-95c9de05466f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/daFeedBackA1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/ajax-loader.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-18-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-18-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-36-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-36-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/action-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/action-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/alert-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/alert-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/arrow-d-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/arrow-d-l-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/arrow-d-l-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/arrow-d-r-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/arrow-d-r-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/arrow-d-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/arrow-l-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/arrow-l-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/arrow-r-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/arrow-r-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/arrow-u-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/arrow-u-l-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/arrow-u-l-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/arrow-u-r-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/arrow-u-r-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/arrow-u-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/audio-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/audio-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/back-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/back-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/bars-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/bars-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/bullets-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/bullets-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/calendar-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/calendar-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/camera-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/camera-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/carat-d-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/carat-d-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/carat-l-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/carat-l-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/carat-r-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/carat-r-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/carat-u-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/carat-u-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/check-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/check-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/clock-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/clock-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/cloud-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/cloud-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/comment-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/comment-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/delete-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/delete-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/edit-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/edit-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/eye-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/eye-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/forbidden-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/forbidden-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/forward-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/forward-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/gear-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/gear-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/grid-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/grid-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/heart-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/heart-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/home-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/home-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/info-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/info-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/location-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/location-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/lock-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/lock-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/mail-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/mail-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/minus-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/minus-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/navigation-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/navigation-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/phone-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/phone-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/plus-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/plus-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/power-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/power-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/recycle-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/recycle-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/refresh-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/refresh-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/search-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/search-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/shop-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/shop-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/star-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/star-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/tag-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/tag-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/user-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/user-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/video-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-png/video-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/action-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/action-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/alert-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/alert-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/arrow-d-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/arrow-d-l-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/arrow-d-l-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/arrow-d-r-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/arrow-d-r-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/arrow-d-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/arrow-l-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/arrow-l-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/arrow-r-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/arrow-r-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/arrow-u-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/arrow-u-l-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/arrow-u-l-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/arrow-u-r-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/arrow-u-r-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/arrow-u-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/audio-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/audio-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/back-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/back-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/bars-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/bars-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/bullets-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/bullets-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/calendar-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/calendar-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/camera-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/camera-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/carat-d-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/carat-d-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/carat-l-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/carat-l-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/carat-r-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/carat-r-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/carat-u-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/carat-u-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/check-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/check-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/clock-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/clock-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/cloud-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/cloud-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/comment-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/comment-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/delete-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/delete-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/edit-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/edit-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/eye-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/eye-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/forbidden-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/forbidden-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/forward-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/forward-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/gear-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/gear-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/grid-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/grid-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/heart-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/heart-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/home-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/home-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/info-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/info-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/location-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/location-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/lock-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/lock-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/mail-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/mail-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/minus-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/minus-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/navigation-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/navigation-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/phone-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/phone-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/plus-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/plus-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/power-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/power-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/recycle-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/recycle-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/refresh-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/refresh-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/search-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/search-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/shop-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/shop-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/star-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/star-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/tag-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/tag-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/user-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/user-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/video-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/images/icons-svg/video-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/jquery.mobile-1.4.5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/jquery.mobile-1.4.5.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/jquery.mobile-1.4.5.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/jquery.mobile.external-png-1.4.5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/jquery.mobile.external-png-1.4.5.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/jquery.mobile.icons-1.4.5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/jquery.mobile.icons-1.4.5.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/jquery.mobile.inline-png-1.4.5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/jquery.mobile.inline-png-1.4.5.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/jquery.mobile.inline-svg-1.4.5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/jquery.mobile.inline-svg-1.4.5.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/jquery.mobile.structure-1.4.5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/jquery.mobile.structure-1.4.5.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/jquery.mobile.theme-1.4.5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lib/jquery.mobile.theme-1.4.5.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/daA1Screenshot.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Black-Widow-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Captain-America-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Giant-Man-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Hulk-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Iron-Man-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Thor-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/avengers.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/avengers2010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/avengersWiki.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/da-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/lib/jquery-2.1.4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/lib/jquery-2.1.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/lib/jquery.mobile-1.4.5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/lib/jquery.mobile-1.4.5.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/lib/jquery.validate.js" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -12,20 +259,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-              <folding>
-                <element signature="n#STYLE#0;n#button#0;n#div#0;n#section#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,6 +274,9 @@
       <find>page</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -53,45 +290,22 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="daFeedBackA1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="daFeedBackA1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="daFeedBackA1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="daFeedBackA1" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="daFeedBackA1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="daFeedBackA1" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="daFeedBackA1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="daFeedBackA1" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/ListView" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RestaurantFeedback" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -122,22 +336,20 @@
       <option name="presentableId" value="Default" />
       <updated>1548679152033</updated>
       <workItem from="1548679156580" duration="21037000" />
+      <workItem from="1556242791271" duration="774000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21037000" />
+    <option name="totallyTimeSpent" value="21811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13396375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -145,6 +357,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -178,8 +394,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+        <state relative-caret-position="561">
+          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
           <folding>
             <element signature="n#STYLE#0;n#button#0;n#div#0;n#section#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
